@@ -1,4 +1,5 @@
 import express from "express";
+import playersRouter from "./routes/players.js";
 
 const app = express();
 
@@ -12,6 +13,8 @@ app.get("/", (req, res) => {
       '<h1 style="text-align: center; margin-top: 50px;">WTA Elite API</h1>'
     );
 });
+
+app.use('/players', playersRouter);
 
 const PORT = process.env.PORT || 3001;
 
