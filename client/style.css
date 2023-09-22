@@ -18,10 +18,8 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  /* min-width: 320px;
-  min-height: 100vh; */
+  min-width: 320px;
+  min-height: 100vh;
   background-color: #000000;
 }
 
@@ -31,6 +29,7 @@ body {
   align-items: center;
   color: black;
   margin-left: 2rem;
+  margin-right: 2rem;
   transform: translateY(-2rem);
 }
 

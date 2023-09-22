@@ -5,6 +5,7 @@ const app = express();
 
 app.use("/public", express.static("./public"));
 app.use("/scripts", express.static("./public/scripts"));
+app.use("/players", playersRouter);
 
 app.get("/", (req, res) => {
   res
@@ -13,8 +14,6 @@ app.get("/", (req, res) => {
       '<h1 style="text-align: center; margin-top: 50px;">WTA Elite API</h1>'
     );
 });
-
-app.use('/players', playersRouter);
 
 const PORT = process.env.PORT || 3001;
 
