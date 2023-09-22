@@ -9,7 +9,7 @@ const playerData = [
       "https://i.ibb.co/61tZ13P/Getty-Images-1645168008-e1693960954635-jpg.webp",
     titles: 13,
     ranking: 1,
-    text: "Sabalenka has a very aggressive style of play, often accumulating high numbers of winners and unforced errors. With her height, she also has a very powerful serve.",
+    text: "Sabalenka has a very aggressive style of play, often accumulating high numbers of winners and unforced errors. With her height, she also has a very powerful serve. In 2023, she won her first major singles title at the Australian Open, reached the semifinals at all four major tournaments (also finishing runner-up at the US Open), and obtained the world No. 1 ranking.",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const playerData = [
     image: "https://i.ibb.co/VqXQ7vG/960x0-jpg.webp",
     titles: 15,
     ranking: 2,
-    text: 'Świątek She has described her style of play on clay as "a big serve, topspin, and backhand down the line". After the retirement of world No. 1 Ashleigh Barty, she became the first Polish player, male or female, to reach the top ranking in singles, on 4 April 2022.',
+    text: 'Świątek She has described her style of play on clay as "a big serve, topspin, and backhand down the line". After the retirement of world No. 1 Ashleigh Barty, she became the first Polish player, male or female, to reach the top ranking in singles, on 4 April 2022. She also won another WTA 1000 title in Miami, becoming the fourth woman to win the Sunshine Double. During this time, Świątek accumulated a 37-match winning streak, the longest on the WTA Tour in the 21st century.',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const playerData = [
     image: "https://i.ibb.co/pKP74nz/Getty-Images-1661688625-jpg.webp",
     titles: 6,
     ranking: 3,
-    text: "Gauff won her first WTA Tour singles title at the 2019 Linz Open at the age of 15 years and seven months, making her the youngest singles title-holder on the Tour since 2004. In 2023, she won her first WTA 1000 title at the Cincinnati Masters and her first major singles title at the US Open.",
+    text: 'Gauff won her first WTA Tour singles title at the 2019 Linz Open at the age of 15 years and seven months, making her the youngest singles title-holder on the Tour since 2004. In 2023, she won her first WTA 1000 title at the Cincinnati Masters and her first major singles title at the US Open. Gauff\'s tennis idols are Serena and Venus Williams. "Serena Williams has always been my idol...and Venus," she has said. "They are the reason why I wanted to pick up a tennis racquet.',
   },
   {
     id: 4,
@@ -114,4 +114,4 @@ const playerData = [
   },
 ];
 
-export default giftData;
+export default playerData;
