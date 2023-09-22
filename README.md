@@ -1,6 +1,6 @@
 # WEB103 Project 1 - *WTA Elite Players*
 
-Submitted by: **Saoirse Siobhn Ebert**
+Submitted by: **Saoirse Siobhan Ebert**
 
 About this web app:
 
