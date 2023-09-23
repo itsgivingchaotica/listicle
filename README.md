@@ -1,4 +1,8 @@
-# WEB103 Project 1 - *WTA Elite Players*
+# WEB103 Project 1 - *WTA Elite*
+
+<div align="center">
+  <img src="https://github.com/itsgivingchaotica/listicle/assets/91578619/f69ea3fc-3495-4da5-b6d0-9499746ec7f5" alt="WTA Elite Logo">
+</div>
 
 Submitted by: **Saoirse Siobhan Ebert**
 
@@ -29,10 +33,12 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGMxMzA5ZGIxNWFqcnY1ZTVsbDg2MTFubXBkOXNrMzN1dndndXJxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y13AiPZbb2jM497Gt2/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<div align="center">
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjQ0eGMxbm9xdzRuZnpmNmJueHQ5bmN0M3p4Z2JxN3ZtajZ4am56YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/teym3AcD8MgtKpKaqL/giphy-downsized-large.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+</div>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
+GIF created with <a href="https://gifcap.dev/">Gifcap</a> </h3>
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
