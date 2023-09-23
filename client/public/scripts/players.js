@@ -36,7 +36,7 @@ const renderPlayers = async () => {
       bottomContainer.appendChild(infoButton);
 
       headerButton.addEventListener("click", function handleClick(event) {
-        window.location = "/:playerId";
+        window.location = "/:id";
       });
 
       card.appendChild(topContainer);
