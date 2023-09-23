@@ -11,7 +11,7 @@ headerLogo.src = "/wtaelite.png";
 
 const headerTitle = document.createElement("h1");
 headerTitle.className = "header-title";
-headerTitle.textContent = "Top 10 Players";
+headerTitle.textContent = "Current Top 10 Players";
 
 headerLeft.appendChild(headerLogo);
 headerLeft.appendChild(headerTitle);
