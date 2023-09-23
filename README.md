@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGMxMzA5ZGIxNWFqcnY1ZTVsbDg2MTFubXBkOXNrMzN1dndndXJxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y13AiPZbb2jM497Gt2/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Add GIF tool here
@@ -40,7 +40,7 @@ GIF created with ...  Add GIF tool here
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2023 Saoirse Siobhan Ebert
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
