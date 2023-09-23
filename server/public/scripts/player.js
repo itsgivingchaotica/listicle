@@ -23,9 +23,10 @@ const renderPlayer = async () => {
     const imageContainer = document.getElementById("image-container");
     // document.getElementById("image").src = player.image;
     imageContainer.style.backgroundImage = `url(${player.image})`;
-    document.getElementById("name").textContent = player.name;
-    document.getElementById("currentRanking").textContent =
-      "#" + player.ranking;
+    document.getElementById("name").textContent =
+      "#" + player.ranking + " " + player.name;
+    document.getElementsByClassName("highestRankingLabel").textContent =
+      "Career-High: ";
     document.getElementById("highestRanking").textContent =
       "#" + player.rankingHigh;
     document.getElementById("country").textContent = player.country;
@@ -40,6 +41,7 @@ const renderPlayer = async () => {
     document.title = `WTA Elite - ${player.name}`;
   } else {
     const message = document.createElement("h2");
+    message.className = "fof-message";
     message.textContent = "No Player Available 😞";
     playerContent.appendChild(message);
   }

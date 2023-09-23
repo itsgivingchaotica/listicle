@@ -6,6 +6,7 @@ export const countryCode = {
   "Kazakhstan": "kz",
   "Czech Republic": "cz",
   "Greece": "gr",
+  "Tunisia": "tn",
 };
 
 export const getCountryCode = (countryName) => {
