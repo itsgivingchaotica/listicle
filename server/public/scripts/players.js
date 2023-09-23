@@ -1,3 +1,5 @@
+import { countryCode, getCountryCode } from "./countryCodes.js";
+
 const renderPlayers = async () => {
   const response = await fetch("/players");
   console.log(response);
@@ -30,13 +32,13 @@ const renderPlayers = async () => {
       country.textContent = "Country: " + player.country;
       bottomContainer.appendChild(country);
 
-      const infoButton = document.createElement("Button");
+      const infoButton = document.createElement("button");
       infoButton.className = "info-button";
       infoButton.textContent = "View Details";
       bottomContainer.appendChild(infoButton);
 
-      headerButton.addEventListener("click", function handleClick(event) {
-        window.location = `/player.html?id=${player.id}`;
+      infoButton.addEventListener("click", function handleClick(event) {
+        window.location.href = `/player.html?id=${player.id}`;
       });
 
       card.appendChild(topContainer);

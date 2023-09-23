@@ -11,10 +11,9 @@ headerLogo.src = "/wtaelite.png";
 
 const headerTitle = document.createElement("h1");
 headerTitle.className = "header-title";
-headerTitle.textContent = "Current Top 10 Players";
+headerTitle.textContent = "Top 10 Players";
 
 headerLeft.appendChild(headerLogo);
-headerLeft.appendChild(headerTitle);
 
 const headerRight = document.createElement("div");
 headerRight.className = "header-right";
@@ -30,6 +29,7 @@ headerButton.addEventListener("click", function handleClick(event) {
 headerRight.appendChild(headerButton);
 
 headerContainer.appendChild(headerLeft);
+headerContainer.appendChild(headerTitle);
 headerContainer.appendChild(headerRight);
 
 header.appendChild(headerContainer);
