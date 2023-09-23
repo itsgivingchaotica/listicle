@@ -4,7 +4,7 @@ Submitted by: **Saoirse Siobhan Ebert**
 
 About this web app:
 
-Track the current top WTA tour players, and learn more about their career statistics and background.
+Track the current top WTA tour players, and learn more about their career statistics and background. Top 10 players are determine by the professional tennis player's performance on the WTA Hologic Tour, each event guaranteeing a set amount of ranking points for each match they play. This is a handy go-to for those who are looking up the top female athletes and some context to their career as of today.
 
 Time spent: 12 hours
 
@@ -13,25 +13,19 @@ Time spent: 12 hours
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app displays a title**
-- [ ] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
-- [ ] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [ ] **The web app serves an appropriate 404 page when no matching route is defined**
-- [ ] **The web app is appropriately styled using Picocss**
+- [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [x] **The web app displays a title**
+- [x] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
+- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
+  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+- [x] **The web app serves an appropriate 404 page when no matching route is defined**
+- [x] **The web app is appropriately styled using Picocss**
 
 The following **optional** features are implemented:
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
+- [x] The web app displays items in a unique format, such as cards rather than lists
 
 ## Video Walkthrough
-
-**Note: please be sure to 
 
 Here's a walkthrough of implemented required features:
 
@@ -43,10 +37,6 @@ GIF created with ...  Add GIF tool here
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
