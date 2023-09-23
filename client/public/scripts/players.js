@@ -1,3 +1,5 @@
+import { getCountryCode } from "./countryCodes.js";
+
 const renderPlayers = async () => {
   const response = await fetch("/players");
   console.log(response);
@@ -18,6 +20,13 @@ const renderPlayers = async () => {
 
       topContainer.style.backgroundImage = `url(${player.image})`;
 
+      // Create flag overlay
+      const overlay = document.createElement("span");
+      const country_code = getCountryCode(player.country);
+
+      overlay.className = `overlay fi fi-${country_code}`;
+      topContainer.appendChild(overlay);
+
       const name = document.createElement("h3");
       name.textContent = player.name;
       bottomContainer.appendChild(name);
@@ -30,13 +39,13 @@ const renderPlayers = async () => {
       country.textContent = "Country: " + player.country;
       bottomContainer.appendChild(country);
 
-      const infoButton = document.createElement("Button");
+      const infoButton = document.createElement("button");
       infoButton.className = "info-button";
       infoButton.textContent = "View Details";
       bottomContainer.appendChild(infoButton);
 
-      headerButton.addEventListener("click", function handleClick(event) {
-        window.location = `/player.html?id=${player.id}`;
+      infoButton.addEventListener("click", function handleClick(event) {
+        window.location.href = `/player.html?id=${player.id}`;
       });
 
       card.appendChild(topContainer);
