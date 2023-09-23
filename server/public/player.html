@@ -21,46 +21,48 @@
   <body>
     <header></header>
     <main id="player-content" class="player-info">
-      <div id="image-container"></div>
-      <div class="player-details">
+      <div class="player-header">
         <h2 id="name"></h2>
-        <div class="details-container">
-          <div class="player-stats">
-            <p>
-              <span id="label">Current Ranking: </span>
-              <span id="currentRanking"></span>
-            </p>
-            <p>
-              <span id="label"> Career-High: </span>
-              <span id="highestRanking"> </span>
-            </p>
-            <div class="nationality">
+        <div id="image-container"></div>
+      </div>
+      <div class="player-details">
+        <div>
+          <div class="details-container">
+            <div class="player-stats">
               <p>
-                <span id="label">Plays for: </span>
-                <span id="country"></span>
-                <span id="flag"></span>
+                <span id="label" class="highestRankingLabel"></span>
+                <span id="highestRanking"></span>
+              </p>
+              <p>
+                <span id="label" class="pointsLabel">Current Ranking Points: </span>
+                <span id="points"></span>
+              </p>
+              <div class="nationality">
+                <p>
+                  <span id="label" class="countryLabel">Plays for: </span>
+                  <span id="country"></span>
+                  <span id="flag"></span>
+                </p>
+              </div>
+            </div>
+            <div class="player-description">
+              <p>
+                <span id="label" class="titlesLabel">Career Titles: </span>
+                <span id="titles"></span>
+              </p>
+              <p>
+                <span id="label" class="recentBestLabel">Recent Best Title: </span>
+                <span id="recentBest"></span>
+              </p>
+              <p>
+                <span id="label" class="coachLabel">Coach: </span>
+                <span id="coach"></span>
               </p>
             </div>
-            <p>
-              <span id="label">Current Ranking Points: </span>
-              <span id="points"></span>
-            </p>
-            <p>
-              <span id="label">Coach: </span>
-              <span id="coach"></span>
-            </p>
           </div>
-          <div class="player-description">
-            <p>
-              <span id="label">Career Titles: </span>
-              <span id="titles"></span>
-            </p>
-            <p>
-              <span id="label">Recent Best Title: </span>
-              <span id="recentBest"></span>
-            </p>
-            <p id="description"></p>
-          </div>
+        </div>
+        <div>
+          <p id="description"></p>
         </div>
       </div>
     </main>

@@ -1,4 +1,4 @@
-import { countryCode, getCountryCode } from "./countryCodes.js";
+import { getCountryCode } from "./countryCodes.js";
 
 const renderPlayers = async () => {
   const response = await fetch("/players");
@@ -19,6 +19,13 @@ const renderPlayers = async () => {
       bottomContainer.classList.add("bottom-container");
 
       topContainer.style.backgroundImage = `url(${player.image})`;
+
+      // Create flag overlay
+      const overlay = document.createElement("span");
+      const country_code = getCountryCode(player.country);
+
+      overlay.className = `overlay fi fi-${country_code}`;
+      topContainer.appendChild(overlay);
 
       const name = document.createElement("h3");
       name.textContent = player.name;
