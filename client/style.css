@@ -17,12 +17,6 @@
   --lime: #bfe806ff;
 }
 
-header {
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
 body {
   margin: 0;
   min-width: 320px;
@@ -32,12 +26,19 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   color: black;
-  margin-left: 2rem;
-  margin-right: 2rem;
   transform: translateY(-2rem);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-image: url("tennisballs.webp");
+  height: 200px;
+}
+
+.header-section {
+  flex: 1;
+  text-align: center;
 }
 
 .header-left {
@@ -54,37 +55,38 @@ body {
   align-items: center;
   text-align: center;
   font-weight: 700;
-  margin-right: 200px;
-  margin-top: 14px;
-  color: var(--lime);
-  transform: translateY(1rem);
+  color: white;
   font-family: "Titillium Web", sans-serif;
-  font-style: italic;
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 4px 4px 5px rgb(53, 5, 69);
 }
 
 .header-right {
-  float: right;
-  padding-top: 30px;
-  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 30px;
 }
 
 .header-logo {
-  width: 300px;
-  height: 300px;
+  min-width: 250px;
+  min-height: 250px;
 }
 
 .button {
   background-color: white;
   border: 5px solid #555555;
   color: black;
-  width: 20vw;
+  width: 15vw;
+  margin-right: 30px;
   border-radius: 0.5rem;
   cursor: pointer;
   font-family: "Titillium Web", sans-serif;
 }
 
 .button:hover {
-  background-color: #bfe806ff;
+  background-color: var(--lime);
 }
 
 main {
@@ -122,16 +124,24 @@ main {
   background-size: cover;
   background-position: top center;
   height: 250px;
-  font-family: "Titillium Web", sans-serif;
 }
 
 .top-container p {
   font-family: "Titillium Web", sans-serif;
 }
 
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 12px;
+  margin-top: 12px;
+  pointer-events: none;
+}
+
 .bottom-container {
   margin-top: 30px;
-  margin-left: 10px;
+  margin-left: 30px;
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -154,7 +164,7 @@ main {
   justify-content: center !important;
   text-align: center;
   align-items: center;
-  margin-left: 36px;
+  margin-left: 16px;
   margin-top: 20px;
   border: 1px solid white;
   background-color: blueviolet;
@@ -203,17 +213,111 @@ main {
 .player-info {
   display: flex;
   flex-direction: row;
+  margin-top: -20px;
 }
 
-.image-container {
-  padding-left: 100px;
-  width: 40vw;
+.player-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#image-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 350px;
+  width: 60vw;
+  margin-bottom: 60px;
 }
 
 .image-container img {
-  width: 80%;
+  width: 100%;
+}
+
+.player-header h2 {
+  display: flex;
+  color: white;
+  text-shadow: 2px 4px 4px rgb(203, 106, 235);
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.player-details p {
+  color: white;
 }
 
 .player-details {
-  width: 45vw;
+  padding-right: 30px;
+  padding-left: 130px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#label {
+  color: rgb(230, 157, 254);
+  font-weight: 700;
+}
+
+.details-container {
+  display: flex;
+  width: 80vw;
+  border: 2px solid var(--lime);
+  margin: 20px;
+  padding-top: 30px;
+}
+
+.player-stats {
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.nationality {
+  display: flex;
+  align-items: center;
+}
+
+.player-description {
+  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#flag {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 960px) {
+  .header-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 760px) {
+  .details-container {
+    display: grid;
+  }
+  .player-description {
+    margin-left: 120px;
+  }
+  .player-info {
+    margin-top: 100px;
+  }
+  .header-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .header-title {
+    font-size: 30px;
+  }
 }

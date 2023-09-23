@@ -26,7 +26,7 @@ const playerData = [
     rankingHigh: 1,
     points: 8196,
     recentBestTitle: "French Open 2023",
-    text: 'Świątek She has described her style of play on clay as "a big serve, topspin, and backhand down the line". After the retirement of world No. 1 Ashleigh Barty, she became the first Polish player, male or female, to reach the top ranking in singles, on 4 April 2022. She also won another WTA 1000 title in Miami, becoming the fourth woman to win the Sunshine Double. During this time, Świątek accumulated a 37-match winning streak, the longest on the WTA Tour in the 21st century.',
+    text: 'Świątek has described her style of play on clay as "a big serve, topspin, and backhand down the line". After the retirement of world No. 1 Ashleigh Barty, she became the first Polish player, male or female, to reach the top ranking in singles, on 4 April 2022. She also won another WTA 1000 title in Miami, becoming the fourth woman to win the Sunshine Double. During this time, Świątek accumulated a 37-match winning streak, the longest on the WTA Tour in the 21st century.',
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ const playerData = [
   {
     id: 5,
     age: 24,
-    name: "Elena Rybkina",
+    name: "Elena Rybakina",
     country: "Kazakhstan",
     coach: "Stefano Vukov",
     image:
@@ -69,7 +69,7 @@ const playerData = [
     rankingHigh: 3,
     points: 5665,
     recentBestTitle: "Wimbledon 2022",
-    text: "Rybakina is noted for her excellent serve and can generate high-powered groundstrokes. Her powerful serve, which is capable of reaching 122 mph (196 km/h),[49] allows her to serve a large number of aces, and she led the tour in the ace count in 2020, serving 192 aces throughout the year. She plays primarily from the baseline and has good movement for her height.",
+    text: "Rybakina is noted for her excellent serve and can generate high-powered groundstrokes. Her powerful serve, which is capable of reaching 122 mph (196 km/h), allows her to serve a large number of aces, and she led the tour in the ace count in 2020, serving 192 aces throughout the year. She plays primarily from the baseline and has good movement for her height.",
   },
   {
     id: 6,
@@ -91,7 +91,7 @@ const playerData = [
     name: "Markéta Vondroušová",
     country: "Czech Republic",
     coach: "Jan Hernych",
-    image: "https://i.ibb.co/47xH9fD/images-7.jpg",
+    image: "https://i.ibb.co/tXCDNXD/marketvondrousova.jpg",
     titles: 2,
     ranking: 7,
     rankingHigh: 6,

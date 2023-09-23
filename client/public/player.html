@@ -8,28 +8,60 @@
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
     />
     <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UnEarthed</title>
 
     <script defer src="/scripts/header.js"></script>
-    <script defer src="/scripts/player.js"></script>
+    <script defer type="module" src="/scripts/player.js"></script>
   </head>
   <body>
     <header></header>
-    <main id="gift-content" class="player-info">
-      <div class="image-container">
-        <img id="image" src="" alt="" />
-
-        <div class="player-details">
-          <h2 id="name"></h2>
-
-          <p id="currentRanking"></p>
-          <p id="highestRanking"></p>
-          <p id="country"></p>
-          <p id="points"></p>
-          <p id="coach"></p>
-          <p id="titles"></p>
-          <p id="recentBest"></p>
+    <main id="player-content" class="player-info">
+      <div class="player-header">
+        <h2 id="name"></h2>
+        <div id="image-container"></div>
+      </div>
+      <div class="player-details">
+        <div>
+          <div class="details-container">
+            <div class="player-stats">
+              <p>
+                <span id="label"> Career-High: </span>
+                <span id="highestRanking"> </span>
+              </p>
+              <p>
+                <span id="label">Current Ranking Points: </span>
+                <span id="points"></span>
+              </p>
+              <div class="nationality">
+                <p>
+                  <span id="label">Plays for: </span>
+                  <span id="country"></span>
+                  <span id="flag"></span>
+                </p>
+              </div>
+            </div>
+            <div class="player-description">
+              <p>
+                <span id="label">Career Titles: </span>
+                <span id="titles"></span>
+              </p>
+              <p>
+                <span id="label">Recent Best Title: </span>
+                <span id="recentBest"></span>
+              </p>
+              <p>
+                <span id="label">Coach: </span>
+                <span id="coach"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
           <p id="description"></p>
         </div>
       </div>
