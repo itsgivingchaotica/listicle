@@ -30,10 +30,14 @@ const renderPlayers = async () => {
       country.textContent = "Country: " + player.country;
       bottomContainer.appendChild(country);
 
-      const link = document.createElement("a");
-      link.textContent = "Read More >";
-      link.href = `/gifts/${player.id}`;
-      bottomContainer.appendChild(link);
+      const infoButton = document.createElement("Button");
+      infoButton.className = "info-button";
+      infoButton.textContent = "View Details";
+      bottomContainer.appendChild(infoButton);
+
+      headerButton.addEventListener("click", function handleClick(event) {
+        window.location = "/:id";
+      });
 
       card.appendChild(topContainer);
       card.appendChild(bottomContainer);
