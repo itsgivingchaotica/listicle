@@ -36,7 +36,7 @@ const renderPlayers = async () => {
       bottomContainer.appendChild(infoButton);
 
       headerButton.addEventListener("click", function handleClick(event) {
-        window.location = "/:id";
+        window.location = `/player.html?id=${player.id}`;
       });
 
       card.appendChild(topContainer);
@@ -46,7 +46,7 @@ const renderPlayers = async () => {
     });
   } else {
     const message = document.createElement("h2");
-    message.textContent = "No Gifts Available 😞";
+    message.textContent = "No Players Available 😞";
     mainContent.appendChild(message);
   }
 };
