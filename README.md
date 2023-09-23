@@ -1,10 +1,9 @@
 # WEB103 Project 1 - *WTA Elite*
+Submitted by: **Saoirse Siobhan Ebert**
 
 <div align="center">
-  <img src="https://github.com/itsgivingchaotica/listicle/assets/91578619/f69ea3fc-3495-4da5-b6d0-9499746ec7f5" alt="WTA Elite Logo">
+  <img src="https://github.com/itsgivingchaotica/listicle/assets/91578619/f69ea3fc-3495-4da5-b6d0-9499746ec7f5" alt="WTA Elite Logo" height="300">
 </div>
-
-Submitted by: **Saoirse Siobhan Ebert**
 
 About this web app:
 
