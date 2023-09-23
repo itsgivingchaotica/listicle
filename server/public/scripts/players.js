@@ -22,13 +22,13 @@ const renderPlayers = async () => {
       name.textContent = player.name;
       bottomContainer.appendChild(name);
 
-      const pricePoint = document.createElement("p");
-      pricePoint.textContent = "Age: " + player.age;
-      bottomContainer.appendChild(pricePoint);
+      const ranking = document.createElement("p");
+      ranking.textContent = "Ranking: " + player.ranking;
+      bottomContainer.appendChild(ranking);
 
-      const audience = document.createElement("p");
-      audience.textContent = "Country: " + player.country;
-      bottomContainer.appendChild(audience);
+      const country = document.createElement("p");
+      country.textContent = "Country: " + player.country;
+      bottomContainer.appendChild(country);
 
       const link = document.createElement("a");
       link.textContent = "Read More >";
