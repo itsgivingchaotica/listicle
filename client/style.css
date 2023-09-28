@@ -202,7 +202,7 @@ main {
 
 .fof-message {
   color: var(--lime);
-  transform: translateY(-500px);
+  transform: translateY(-700px);
 }
 
 @keyframes type {

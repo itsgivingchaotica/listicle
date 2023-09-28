@@ -12,7 +12,7 @@ const playerData = [
     rankingHigh: 1,
     points: 9266,
     recentBestTitle: "Australian Open 2023",
-    text: "Sabalenka has a very aggressive style of play, often accumulating high numbers of winners and unforced errors. With her height, she also has a very powerful serve. In 2023, she won her first major singles title at the Australian Open, reached the semifinals at all four major tournaments (also finishing runner-up at the US Open), and obtained the world No. 1 ranking.",
+    description: "Sabalenka has a very aggressive style of play, often accumulating high numbers of winners and unforced errors. With her height, she also has a very powerful serve. In 2023, she won her first major singles title at the Australian Open, reached the semifinals at all four major tournaments (also finishing runner-up at the US Open), and obtained the world No. 1 ranking.",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const playerData = [
     rankingHigh: 1,
     points: 8196,
     recentBestTitle: "French Open 2023",
-    text: 'Świątek has described her style of play on clay as "a big serve, topspin, and backhand down the line". After the retirement of world No. 1 Ashleigh Barty, she became the first Polish player, male or female, to reach the top ranking in singles, on 4 April 2022. She also won another WTA 1000 title in Miami, becoming the fourth woman to win the Sunshine Double. During this time, Świątek accumulated a 37-match winning streak, the longest on the WTA Tour in the 21st century.',
+    description: 'Świątek has described her style of play on clay as "a big serve, topspin, and backhand down the line". After the retirement of world No. 1 Ashleigh Barty, she became the first Polish player, male or female, to reach the top ranking in singles, on 4 April 2022. She also won another WTA 1000 title in Miami, becoming the fourth woman to win the Sunshine Double. During this time, Świątek accumulated a 37-match winning streak, the longest on the WTA Tour in the 21st century.',
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const playerData = [
     rankingHigh: 3,
     points: 6165,
     recentBestTitle: "US Open 2023",
-    text: 'Gauff won her first WTA Tour singles title at the 2019 Linz Open at the age of 15 years and seven months, making her the youngest singles title-holder on the Tour since 2004. In 2023, she won her first WTA 1000 title at the Cincinnati Masters and her first major singles title at the US Open. Gauff\'s tennis idols are Serena and Venus Williams. "Serena Williams has always been my idol...and Venus," she has said. "They are the reason why I wanted to pick up a tennis racquet.',
+    description: 'Gauff won her first WTA Tour singles title at the 2019 Linz Open at the age of 15 years and seven months, making her the youngest singles title-holder on the Tour since 2004. In 2023, she won her first WTA 1000 title at the Cincinnati Masters and her first major singles title at the US Open. Gauff\'s tennis idols are Serena and Venus Williams. "Serena Williams has always been my idol...and Venus," she has said. "They are the reason why I wanted to pick up a tennis racquet.',
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const playerData = [
     rankingHigh: 3,
     points: 5755,
     recentBestTitle: "National Bank Open 2023",
-    text: "Pegula is a six-time major quarterfinalist in singles, having reached this stage at all four Grand Slam tournaments; thrice at the Australian Open (2021–2023), and once at the French Open (2022), US Open (2022), and Wimbledon (2023). In doubles, she reached the women's doubles final of the 2022 French Open partnering with Coco Gauff and the mixed doubles final of the 2023 US Open with Austin Krajicek.",
+    description: "Pegula is a six-time major quarterfinalist in singles, having reached this stage at all four Grand Slam tournaments; thrice at the Australian Open (2021–2023), and once at the French Open (2022), US Open (2022), and Wimbledon (2023). In doubles, she reached the women's doubles final of the 2022 French Open partnering with Coco Gauff and the mixed doubles final of the 2023 US Open with Austin Krajicek.",
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const playerData = [
     rankingHigh: 3,
     points: 5665,
     recentBestTitle: "Wimbledon 2022",
-    text: "Rybakina is noted for her excellent serve and can generate high-powered groundstrokes. Her powerful serve, which is capable of reaching 122 mph (196 km/h), allows her to serve a large number of aces, and she led the tour in the ace count in 2020, serving 192 aces throughout the year. She plays primarily from the baseline and has good movement for her height.",
+    description: "Rybakina is noted for her excellent serve and can generate high-powered groundstrokes. Her powerful serve, which is capable of reaching 122 mph (196 km/h), allows her to serve a large number of aces, and she led the tour in the ace count in 2020, serving 192 aces throughout the year. She plays primarily from the baseline and has good movement for her height.",
   },
   {
     id: 6,
@@ -83,7 +83,7 @@ const playerData = [
     rankingHigh: 2,
     points: 3875,
     recentBestTitle: "Madrid Open 2022",
-    text: "Jabeur won the 2022 Madrid Open, a WTA 1000 event, her biggest title, becoming the first female Tunisian and Arab player to win at this level. Shen then went on to become the runner-up at Wimbledon in 2022 and 2023 and at the US Open in 2022, becoming the first Arab woman to contest a major singles final. Her achievements are credited with raising the profile of tennis across the African continent",
+    description: "Jabeur won the 2022 Madrid Open, a WTA 1000 event, her biggest title, becoming the first female Tunisian and Arab player to win at this level. Shen then went on to become the runner-up at Wimbledon in 2022 and 2023 and at the US Open in 2022, becoming the first Arab woman to contest a major singles final. Her achievements are credited with raising the profile of tennis across the African continent",
   },
   {
     id: 7,
@@ -97,7 +97,7 @@ const playerData = [
     rankingHigh: 6,
     points: 3830,
     recentBestTitle: "Wimbledon 2023",
-    text: "Vondroušová is a former junior world No. 1, having won two major doubles titles. She had a quick breakthrough on the WTA Tour, winning the 2017 Ladies Open Biel Bienne at age 17 in just her second career WTA Tour singles event. Vondroušová struggled with injuries early in her career, most notably missing the second half of the 2019 season shortly after her French Open final. Her signature shot is the drop shot.",
+    description: "Vondroušová is a former junior world No. 1, having won two major doubles titles. She had a quick breakthrough on the WTA Tour, winning the 2017 Ladies Open Biel Bienne at age 17 in just her second career WTA Tour singles event. Vondroušová struggled with injuries early in her career, most notably missing the second half of the 2019 season shortly after her French Open final. Her signature shot is the drop shot.",
   },
   {
     id: 8,
@@ -112,7 +112,7 @@ const playerData = [
     rankingHigh: 3,
     points: 3810,
     recentBestTitle: "Morocco Open 2019",
-    text: "Sakkari is known for her aggressive, all-court style of play, centered around her strong serve and powerful groundstrokes. She was introduced to tennis by her parents at age 6 and moved to Barcelona at age 18 in order to train. She has said that her favorite surfaces are hard and clay and that her favorite shot is the serve. Growing up, her favourite players were Serena Williams, Roger Federer and Rafael Nadal.",
+    description: "Sakkari is known for her aggressive, all-court style of play, centered around her strong serve and powerful groundstrokes. She was introduced to tennis by her parents at age 6 and moved to Barcelona at age 18 in order to train. She has said that her favorite surfaces are hard and clay and that her favorite shot is the serve. Growing up, her favourite players were Serena Williams, Roger Federer and Rafael Nadal.",
   },
   {
     id: 9,
@@ -126,7 +126,7 @@ const playerData = [
     rankingHigh: 8,
     points: 3765,
     recentBestTitle: "Korea Open 2019",
-    text: "Muchová is an aggressive all-court player, possessing an intelligent game with exceptional variety. She has powerful groundstrokes from both wings, using both her forehand and backhand to hit winners from any position on the court. She has been praised for her ability to incorporate softer shots, such as drop shots, lobs, and sliced backhands, into her game, constantly breaking up the pace of baseline rallies, and being able to hit winners with these typically defensive shots.",
+    description: "Muchová is an aggressive all-court player, possessing an intelligent game with exceptional variety. She has powerful groundstrokes from both wings, using both her forehand and backhand to hit winners from any position on the court. She has been praised for her ability to incorporate softer shots, such as drop shots, lobs, and sliced backhands, into her game, constantly breaking up the pace of baseline rallies, and being able to hit winners with these typically defensive shots.",
   },
   {
     id: 10,
@@ -140,7 +140,7 @@ const playerData = [
     rankingHigh: 4,
     points: 3335,
     recentBestTitle: "WTA Finals 2022",
-    text: "Garcia is an offensive baseliner, with consistent and powerful groundstrokes, and a strong service game. Her forehand is her stronger wing, and she can hit many clean winners off it. She also possesses a consistent and strong two-handed backhand. She also has a strong first and second serve, known for its accuracy. She served the ninth most aces in 2016, with 218. She has good movement and footwork around the court, which help her with hitting her groundstrokes effectively.",
+    description: "Garcia is an offensive baseliner, with consistent and powerful groundstrokes, and a strong service game. Her forehand is her stronger wing, and she can hit many clean winners off it. She also possesses a consistent and strong two-handed backhand. She also has a strong first and second serve, known for its accuracy. She served the ninth most aces in 2016, with 218. She has good movement and footwork around the court, which help her with hitting her groundstrokes effectively.",
   },
 ];
 

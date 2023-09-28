@@ -37,7 +37,7 @@ const renderPlayer = async () => {
     document.getElementById("coach").textContent = player.coach;
     document.getElementById("titles").textContent = player.titles;
     document.getElementById("recentBest").textContent = player.recentBestTitle;
-    document.getElementById("description").textContent = player.text;
+    document.getElementById("description").textContent = player.description;
     document.title = `WTA Elite - ${player.name}`;
   } else {
     const message = document.createElement("h2");
