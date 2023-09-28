@@ -15,9 +15,9 @@ const createPlayersTable = async () => {
         image VARCHAR(255) NOT NULL,
         titles INT NOT NULL,
         ranking INT NOT NULL,
-        rankingHigh INT NOT NULL,
+        rankinghigh INT NOT NULL,
         points INT NOT NULL,
-        recentBestTitle VARCHAR(255) NOT NULL,
+        recentbesttitle VARCHAR(255) NOT NULL,
         description TEXT NOT NULL
     )
 `;
@@ -35,7 +35,7 @@ const seedPlayersTable = async () => {
 
   playerData.forEach((player) => {
     const insertQuery = {
-      text: "INSERT INTO player (age,name,country,coach,image,titles,ranking,rankingHigh,points,recentBestTitle,description) VALUES ($1, $2, $3, $4, $5, $6, $7,$8,$9,$10,$11)",
+      text: "INSERT INTO player (age,name,country,coach,image,titles,ranking,rankinghigh,points,recentbesttitle,description) VALUES ($1, $2, $3, $4, $5, $6, $7,$8,$9,$10,$11)",
     };
 
     const values = [
@@ -46,9 +46,9 @@ const seedPlayersTable = async () => {
       player.image,
       player.titles,
       player.ranking,
-      player.rankingHigh,
+      player.rankinghigh,
       player.points,
-      player.recentBestTitle,
+      player.recentbesttitle,
       player.description,
     ];
     pool.query(insertQuery, values, (err, res) => {
