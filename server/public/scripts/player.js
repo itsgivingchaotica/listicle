@@ -25,24 +25,51 @@ const renderPlayer = async () => {
     imageContainer.style.backgroundImage = `url(${player.image})`;
     document.getElementById("name").textContent =
       "#" + player.ranking + " " + player.name;
-    document.getElementsByClassName("highestRankingLabel").textContent =
-      "Career-High: ";
+    const highestRankingLabels = document.getElementsByClassName(
+      "highestRankingLabel"
+    );
+    for (const label of highestRankingLabels) {
+      label.textContent = "Career-High: ";
+    }
     document.getElementById("highestRanking").textContent =
-      "#" + player.rankingHigh;
+      "#" + player.rankinghigh;
+    const countryLabel = document.getElementsByClassName("countryLabel");
+    for (const label of countryLabel) {
+      label.textContent = "Plays for: ";
+    }
     document.getElementById("country").textContent = player.country;
     const flagElement = document.getElementById("flag");
     const country_code = getCountryCode(player.country);
     flagElement.className = `fi fi-${country_code}`;
     document.getElementById("points").textContent = player.points;
+    const rankingPointsLabel = document.getElementsByClassName("pointsLabel");
+    for (const label of rankingPointsLabel) {
+      label.textContent = "Current Ranking Points: ";
+    }
     document.getElementById("coach").textContent = player.coach;
     document.getElementById("titles").textContent = player.titles;
-    document.getElementById("recentBest").textContent = player.recentBestTitle;
+    const titlesLabel = document.getElementsByClassName("titlesLabel");
+    for (const label of titlesLabel) {
+      label.textContent = "Career Titles: ";
+    }
+    document.getElementById("recentBest").textContent = player.recentbesttitle;
+    const recentBestLabel = document.getElementsByClassName("recentBestLabel");
+    for (const label of recentBestLabel) {
+      label.textContent = "Recent Best Title: ";
+    }
+    const coachLabel = document.getElementsByClassName("coachLabel");
+    for (const label of coachLabel) {
+      label.textContent = "Coach: ";
+    }
+    // apply border
+    const detailsContainer = document.querySelector(".details-container");
+    detailsContainer.style.border = "2px solid var(--lime)";
     document.getElementById("description").textContent = player.description;
     document.title = `WTA Elite - ${player.name}`;
   } else {
     const message = document.createElement("h2");
     message.className = "fof-message";
-    message.textContent = "No Player Available 😞";
+    message.textContent = "Fault! ❌ No Player Found 😞";
     playerContent.appendChild(message);
   }
 };
