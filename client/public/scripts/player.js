@@ -64,7 +64,7 @@ const renderPlayer = async () => {
     // apply border
     const detailsContainer = document.querySelector(".details-container");
     detailsContainer.style.border = "2px solid var(--lime)";
-    document.getElementById("description").textContent = player.text;
+    document.getElementById("description").textContent = player.description;
     document.title = `WTA Elite - ${player.name}`;
   } else {
     const message = document.createElement("h2");
