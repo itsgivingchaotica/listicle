@@ -32,7 +32,7 @@ const renderPlayer = async () => {
       label.textContent = "Career-High: ";
     }
     document.getElementById("highestRanking").textContent =
-      "#" + player.rankingHigh;
+      "#" + player.rankinghigh;
     const countryLabel = document.getElementsByClassName("countryLabel");
     for (const label of countryLabel) {
       label.textContent = "Plays for: ";
@@ -52,7 +52,7 @@ const renderPlayer = async () => {
     for (const label of titlesLabel) {
       label.textContent = "Career Titles: ";
     }
-    document.getElementById("recentBest").textContent = player.recentBestTitle;
+    document.getElementById("recentBest").textContent = player.recentbesttitle;
     const recentBestLabel = document.getElementsByClassName("recentBestLabel");
     for (const label of recentBestLabel) {
       label.textContent = "Recent Best Title: ";
