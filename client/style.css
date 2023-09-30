@@ -89,6 +89,18 @@ body {
   background-color: var(--lime);
 }
 
+/* CSS for centering the input */
+.header-and-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-and-search form {
+  width: 50rem;
+  margin-bottom: 4rem;
+}
+
 main {
   margin-top: 50px;
   display: flex;
