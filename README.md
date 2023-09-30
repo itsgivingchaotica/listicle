@@ -1,4 +1,4 @@
-# WEB103 Project 1 - *WTA Elite*
+# WEB103 Project 2 - *WTA Elite*
 Submitted by: **Saoirse Siobhan Ebert**
 
 <div align="center">
@@ -27,13 +27,14 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [x] The web app displays items in a unique format, such as cards rather than lists
+- [x] The user can search for items with a specific attribute
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
 <div align="center">
-<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjQ0eGMxbm9xdzRuZnpmNmJueHQ5bmN0M3p4Z2JxN3ZtajZ4am56YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/teym3AcD8MgtKpKaqL/giphy-downsized-large.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGo4YXM3Y3dteWg5NXU5YWk2ZzA0ZHpyYzc2M3VzeGRzYXZuZjBncSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CsCgHdeDx71cn9WHVC/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 </div>
 
 <!-- Replace this with whatever GIF tool you used! -->
