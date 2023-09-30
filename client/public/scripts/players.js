@@ -1,16 +1,56 @@
 import { getCountryCode } from "./countryCodes.js";
 
+//to store all data from the server
+let playerCards;
+
+const filterPlayers = (searchTerm) => {
+  playerCards = document.querySelectorAll(".card");
+  playerCards.forEach((card) => {
+    const playerInfo = JSON.parse(card.dataset.playerInfo);
+
+    //convert all player object values to lowercase for case-insensitive search
+
+    const playerValues = Object.values(playerInfo).map((value) =>
+      value.toString().toLowerCase()
+    );
+
+    //check to see if any value contains the search term
+
+    const terms = searchTerm.toLowerCase().split(" ");
+    const matches = terms.some((term) =>
+      playerValues.some((value) => value.includes(term))
+    );
+    if (matches) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
+  });
+};
+
+//grab search bar
+const searchInput = document.getElementById("search");
+
+//begin filtering players from input
+searchInput.addEventListener("input", (event) => {
+  const searchTerm = event.target.value.trim();
+  filterPlayers(searchTerm);
+});
+
 const renderPlayers = async () => {
   const response = await fetch("/players");
-  console.log(response);
-  const data = await response.json();
-  console.log(data);
+  let data = await response.json();
   const mainContent = document.getElementById("main-content");
 
   if (data) {
-    data.map((player) => {
+    //only take the top 10 players from database table 
+    //by ranking
+    data.slice(0, 10).map((player) => {
       const card = document.createElement("div");
       card.classList.add("card");
+
+      // Store the player object as a data attribute
+      card.dataset.playerInfo = JSON.stringify(player);
 
       const topContainer = document.createElement("div");
       topContainer.classList.add("top-container");
